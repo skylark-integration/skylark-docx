@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "rootDir": "./src",
+        "module": "commonjs",
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "baseUrl": "./src",
+        "paths": {
+            "/*": ["./*"]
+        }
+    },
+    "exclude": ["node_modules", "tests", "**/_*", "demo", "scripts", "webpack.config.ts"]
+}

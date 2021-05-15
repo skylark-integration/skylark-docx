@@ -1,0 +1,26 @@
+{
+  "check-coverage": true,
+  "lines": 98.86,
+  "functions": 97.86,
+  "branches": 95.86,
+  "statements": 98.86,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "src/import-dotx/import-dotx.ts"
+  ],
+  "reporter": [
+    "lcov",
+    "text",
+    "json"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "cache": true,
+  "all": true,
+  "instrument": false,
+  "sourceMap": true
+}
